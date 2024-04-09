@@ -2,7 +2,11 @@
 Website Backend for A Restaurant called Little Lemon
 
 ## Commands that Usually Used (On Windows OS)
-**Activate Virtual Environment:** .\tutorial-env\Scripts\Activate.ps1 <br />
+**Install the Virtual Environment:** pip3 install virtualenv <br />
+**Init Vritual Environment:** python -m venv your_project_name <br />
+**Activate Virtual Environment:** .\your_project_name\Scripts\Activate.ps1 <br />
 **Deactivate Virtual Environment:** deactivate <br />
+
+**Create a Django Project:** django-admin startproject demoproject <br />
 **Create an App:** python manage.py startapp demoapp <br />
 **Run Django Server:** python manage.py runserver
