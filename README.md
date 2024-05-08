@@ -13,6 +13,7 @@ Website Backend for A Restaurant called Little Lemon
 **Create a Django Project:** django-admin startproject project_name <br />
 **Create an App:** python manage.py startapp app_name <br />
 **Run Django Server:** python manage.py runserver <br />
+**Open Django Shell in Cmdline:** python manage.py shell <br />
 
 ### Database Related
 **Add a New Model or Effect Changes:** python manage.py makemigrations <br />
