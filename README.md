@@ -18,5 +18,6 @@ Website Backend for A Restaurant called Little Lemon
 ### Database Related
 **Add a New Model or Effect Changes:** python manage.py makemigrations <br />
 **Migrating Models of Installed Apps(Apply the Tasks in the Migration File):** python manage.py migrate <br />
+**Revert Back to a Specific Version:** python manage.py migrate app_name migration_file_name <br />
 **There are Two Unmigrated Changes in the Model, Run:** python manage.py showmigrations <br />
-**Shows the SQL Query or Queries Executed:** python manage.py sqlmigrate app_name migration_name
+**Shows the SQL Query or Queries Executed:** python manage.py sqlmigrate app_name migration_file_name
