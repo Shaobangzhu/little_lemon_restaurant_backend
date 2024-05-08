@@ -10,6 +10,12 @@ Website Backend for A Restaurant called Little Lemon
 
 ### Django Related
 **Install Django:** pip3 install django <br />
-**Create a Django Project:** django-admin startproject demoproject <br />
-**Create an App:** python manage.py startapp demoapp <br />
-**Run Django Server:** python manage.py runserver
+**Create a Django Project:** django-admin startproject project_name <br />
+**Create an App:** python manage.py startapp app_name <br />
+**Run Django Server:** python manage.py runserver <br />
+
+### Database Related
+**Add a New Model or Effect Changes:** python manage.py makemigrations <br />
+**Migrating Models of Installed Apps(Apply the Tasks in the Migration File):** python manage.py migrate <br />
+**There are Two Unmigrated Changes in the Model, Run:** python manage.py showmigrations <br />
+**Shows the SQL Query or Queries Executed:** python manage.py sqlmigrate app_name migration_name
