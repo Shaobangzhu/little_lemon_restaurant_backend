@@ -21,3 +21,10 @@ Website Backend for A Restaurant called Little Lemon
 **Revert Back to a Specific Version:** python manage.py migrate app_name migration_file_name <br />
 **There are Two Unmigrated Changes in the Model, Run:** python manage.py showmigrations <br />
 **Shows the SQL Query or Queries Executed:** python manage.py sqlmigrate app_name migration_file_name
+
+### ORM Commands
+**Import a Model:** from app_name import model_name <br />
+**Show all the Element in the ORM:** model_name.objects.all() <br />
+**Add an Element in the Model:** model_name.objects.create(attribute1 = 'xxx', attribute2 = 'xxx' ...) <br />
+**Get an Element by ID:** model_name.objects.get(id=id_number) <br />
+**Get an Element by Filter:** model_name.objects.filter(filter_content) <br />
