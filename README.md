@@ -28,3 +28,6 @@ Website Backend for A Restaurant called Little Lemon
 **Add an Element in the Model:** model_name.objects.create(attribute1 = 'xxx', attribute2 = 'xxx' ...) <br />
 **Get an Element by ID:** model_name.objects.get(id=id_number) <br />
 **Get an Element by Filter:** model_name.objects.filter(filter_content) <br />
+
+### Admin
+**Create a Super User:** python manage.py createsuperuser
