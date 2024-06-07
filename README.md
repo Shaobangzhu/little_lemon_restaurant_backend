@@ -31,3 +31,6 @@ Website Backend for A Restaurant called Little Lemon
 
 ### Admin
 **Create a Super User:** python manage.py createsuperuser
+
+### MySQL
+**Start the MySQL command line client:** mysql -u root -p
