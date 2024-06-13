@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import Menu
 
 # Create your views here.
 def about(request):
@@ -13,3 +14,8 @@ def menu(request):
         {'name':"humus", 'price': "5"},
     ]}
     return render(request, 'menu.html', newmenu)
+
+def menu_by_id(request):
+    newmenu = Menu.objects.all()
+    newmenu_dict = {'menu': newmenu}
+    return render(request, 'menu_card.html', newmenu_dict)
